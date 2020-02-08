@@ -9,7 +9,6 @@
 非常抱歉，由于个人的技术所限，本文档暂不支持代码高亮等功能，对您的阅读产生了不便，随后我们会竭尽所能的完善它，同时也希望有相同想法的小伙伴们，能够和我一起完成这项工作。
 
 <div style="text-align:right">kinght</div>
-
 <div style="text-align:right">2020年2月6日</div>
 
 # 计划更新内容
@@ -17,3 +16,20 @@
 - 编程语言：Web前端，Python，Java，PHP，GO，C/C++，汇编，数据结构
 - 运维知识：Linux，Tcp/Ip，Http
 - 网络安全：Web，Pwn
+- 人工智能：基础知识，相关框架
+
+# 更新进度及参考资料
+
+## 编程语言
+
+### Java
+
+#### 1.基础章节
+
+参考资料：
+
+> [慕课网2019Java就业班-Java 零基础入门](https://class.imooc.com/sc/64)
+>
+> [JavaGuide](https://snailclimb.gitee.io/javaguide/#/)
+>
+> 书籍：Java核心卷1(原书第10版)
