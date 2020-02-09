@@ -45,7 +45,7 @@ Java虚拟机是支撑Java程序运行的核心，他是运行 Java 字节码的
 
 Java的安装包根据用途的不同分为JDK和JRE
 
-![image-20200209135134324](JavaseBasics.assets/image-20200209135134324.png)
+![image-20200209145619944](JavaseBasics.assets/image-20200209145619944.png)
 
 #### JRE
 
@@ -60,3 +60,5 @@ Java Development Kit Java开发环境
 它是功能齐全的Java SDK。它拥有JRE所拥有的一切，还有编译器（javac）和工具（如javadoc和jdb）。它能够创建和编译程序。
 
 如图所示，JDK包含了JRE，如果只是为了运行一下 Java 程序的话，那么只需要安装 JRE 就可以了，如果需要进行开发就需要安装JDK了。但是，这不是绝对的。有时，即使您不打算在计算机上进行任何Java开发，仍然需要安装JDK。例如，如果要使用JSP部署Web应用程序，那么从技术上讲，您只是在应用程序服务器中运行Java程序。那你为什么需要JDK呢？因为应用程序服务器会将 JSP 转换为 Java servlet，并且需要使用 JDK 来编译 servlet。
+
+JavaJDK安装
