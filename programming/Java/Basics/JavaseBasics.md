@@ -63,6 +63,5 @@ Java Development Kit Java开发环境
 
 ## Java开发环境安装
 
-由于JDK教程安装实在太多，本文不于详细阐述 ，提供慕课网文档进行参考。
+由于JDK教程安装实在太多，本文不于详细阐述 ，提供[慕课网文档](https://github.com/kinghtxg/bookblog/blob/master/programming/Java/Basics/JavaseBasics.assets/Java%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BAJDK%E7%9A%84%E4%B8%8B%E8%BD%BD%E5%92%8C%E5%AE%89%E8%A3%85.pdf)进行参考。
 
-[Java开发环境搭建JDK的下载和安装.pdf](JavaseBasics.assets\Java开发环境搭建JDK的下载和安装.pdf) 
