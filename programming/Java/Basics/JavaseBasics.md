@@ -61,4 +61,8 @@ Java Development Kit Java开发环境
 
 如图所示，JDK包含了JRE，如果只是为了运行一下 Java 程序的话，那么只需要安装 JRE 就可以了，如果需要进行开发就需要安装JDK了。但是，这不是绝对的。有时，即使您不打算在计算机上进行任何Java开发，仍然需要安装JDK。例如，如果要使用JSP部署Web应用程序，那么从技术上讲，您只是在应用程序服务器中运行Java程序。那你为什么需要JDK呢？因为应用程序服务器会将 JSP 转换为 Java servlet，并且需要使用 JDK 来编译 servlet。
 
-JavaJDK安装
+## Java开发环境安装
+
+由于JDK教程安装实在太多，本文不于详细阐述 ，提供慕课网文档进行参考。
+
+[Java开发环境搭建JDK的下载和安装.pdf](JavaseBasics.assets\Java开发环境搭建JDK的下载和安装.pdf) 
