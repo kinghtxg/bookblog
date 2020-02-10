@@ -61,7 +61,76 @@ Java Development Kit Java开发环境
 
 如图所示，JDK包含了JRE，如果只是为了运行一下 Java 程序的话，那么只需要安装 JRE 就可以了，如果需要进行开发就需要安装JDK了。但是，这不是绝对的。有时，即使您不打算在计算机上进行任何Java开发，仍然需要安装JDK。例如，如果要使用JSP部署Web应用程序，那么从技术上讲，您只是在应用程序服务器中运行Java程序。那你为什么需要JDK呢？因为应用程序服务器会将 JSP 转换为 Java servlet，并且需要使用 JDK 来编译 servlet。
 
-## Java开发环境安装
+## Java开发环境安装(视频补充预留)
+
+由于开发环境安装确实很简单，所以这里不作详细讲述，篇幅留下来作以后视频讲解空间预留。
+
+### JDK安装
 
 由于JDK教程安装实在太多，本文不于详细阐述 ，提供[慕课网文档](https://github.com/kinghtxg/bookblog/blob/master/programming/Java/Basics/JavaseBasics.assets/Java%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BAJDK%E7%9A%84%E4%B8%8B%E8%BD%BD%E5%92%8C%E5%AE%89%E8%A3%85.pdf)进行参考。
 
+### 编辑器安装
+
+常用的编译器有[Eclipse](https://www.eclipse.org/downloads/)和[Idea](https://www.jetbrains.com/idea/)
+
+具体的安装步骤由于全是傻瓜式，下一步选路径在下一步
+
+### IDEA的一些设置
+
+> 小贴士：通常我们在创建包的时候，习惯使用域名倒叙的方式命名
+
+#### IDEA创建项目
+
+![IDEA创建项目](JavaseBasics.assets/IDEA创建项目.gif)
+
+#### IDEA修改tab键
+
+![修改tab键](JavaseBasics.assets/修改tab键.gif)
+
+#### IDEA编译程序
+
+![IDEA编译第一个Java程序](JavaseBasics.assets/IDEA编译第一个Java程序.gif)
+
+## 第一个Java程序
+
+### 第一个Java程序
+
+为了更直观的了解Java程序的编译流程，我们首先使用记事本来敲第一个程序，创建记事本，将如下代码敲入其中。
+
+```Java
+public class FirstSample
+{
+    public static void main(String[] args)
+    {
+        System.out.println("Helloworld");
+    }
+}
+```
+
+将其保存文件名为
+
+> FirstSample.java
+
+打开命令行窗口，跳转到当前目录
+
+```cmd
+javac FirstSample.java
+```
+
+我们可以发现在目录下出现了一个新的文件
+
+![image-20200210113754479](JavaseBasics.assets/image-20200210113754479.png)
+
+这个就是之前提到的字节码
+
+然后我们使用java虚拟机来运行它
+
+```cmd
+java FirstSample
+```
+
+> 注意：这里并不加.class后缀
+
+我们就能够看到输出的结果
+
+![image-20200210113924211](JavaseBasics.assets/image-20200210113924211.png)
