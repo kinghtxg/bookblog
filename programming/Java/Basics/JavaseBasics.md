@@ -134,3 +134,16 @@ java FirstSample
 我们就能够看到输出的结果
 
 ![image-20200210113924211](JavaseBasics.assets/image-20200210113924211.png)
+
+### Java的程序结构基础
+
+从上文程序由内而外可以分为三个板块
+
+#### 1.类(class)
+
+```Java
+public class HelloWorld{
+ ...
+}
+```
+
