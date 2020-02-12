@@ -18,7 +18,9 @@
 - 网络安全：Web，Pwn
 - 人工智能：基础知识，相关框架
 
-# 更新进度及参考资料
+本文档编写目的为基础加强和实践笔记相结合，如有对计算机一些概念看不懂的小伙伴们，请紧张的往下看，很多概念的答案就在后续文章。如急切想知道答案，本文档与百度达成深度合作，可以在百度搜索答案。
+
+# 更新进度
 
 ## 编程语言
 
@@ -26,6 +28,6 @@
 
 #### 1.基础章节
 
-- [Java基础](./programming/Java/Basics/JavaseBasics)
+- [Java基础-Java简介、Java开发环境安装、第一个Java程序](./programming/Java/Basics/JavaseBasics)
 
-- [Java基础2](./programming/Java/Basics/JavaseBasics2)
+- [Java基础2-注释、变量、常量、运算符、数据类型](./programming/Java/Basics/JavaseBasics2)
