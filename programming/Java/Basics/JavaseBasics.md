@@ -15,13 +15,22 @@
 ### Java优势总结
 
 1. 简单易学；
+
 2. 面向对象（封装，继承，多态）；
+
 3. 平台无关性（ Java 虚拟机实现平台无关性）；
+
 4. 可靠性；
+
 5. 安全性；
+
 6. 支持多线程（ C++ 语言没有内置的多线程机制，因此必须调用操作系统的多线程功能来进行多线程程序设计，而 Java 语言却提供了多线程支持）；
+
 7. 支持网络编程并且很方便（ Java 语言诞生本身就是为简化网络编程设计的，因此 Java 语言不仅支持网络编程而且很方便）；
+
 8. 编译与解释并存；
+
+   > 修正（参见： [issue#544](https://github.com/Snailclimb/JavaGuide/issues/544)）：C++11开始（2011年的时候）,C++就引入了多线程库，在windows、linux、macos都可以使用`std::thread`和`std::async`来创建线程。参考链接：http://www.cplusplus.com/reference/thread/thread/?kw=thread
 
 ### Java虚拟机
 
