@@ -11,7 +11,6 @@
 <div style="text-align:right">kinght</div>
 <div style="text-align:right">2020年2月6日</div>
 
-
 # 计划更新内容
 
 - 编程语言：Web前端，Python，Java，PHP，GO，C/C++，汇编，数据结构
@@ -28,3 +27,5 @@
 #### 1.基础章节
 
 - [Java基础](./programming/Java/Basics/JavaseBasics)
+
+- [Java基础2](./programming/Java/Basics/JavaseBasics2)
