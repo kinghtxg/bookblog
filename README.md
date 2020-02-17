@@ -10,7 +10,6 @@
 
 <div style="text-align:right">kinght</div>
 <div style="text-align:right">2020年2月6日</div>
-
 # 计划更新内容
 
 - 编程语言：Web前端，Python，Java，PHP，GO，C/C++，汇编，数据结构
@@ -26,8 +25,9 @@
 
 ### Java
 
-#### 1.基础章节
+#### 1.基础章节_bu:kinght
 
-- [Java基础-Java简介、Java开发环境安装、第一个Java程序](./programming/Java/Basics/JavaseBasics)
+- [Java基础](./programming/Java/Basics/JavaseBasics)
 
-- [Java基础2-注释、变量、常量、运算符、数据类型](./programming/Java/Basics/JavaseBasics2)
+- [Java流程控制](./programming/Java/PricessCibtrol/PricessCibtrol)
+
