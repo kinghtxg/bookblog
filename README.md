@@ -23,11 +23,5 @@
 
 ## 编程语言
 
-### Java
-
-#### 1.基础章节_bu:kinght
-
-- [Java基础](./programming/Java/Basics/JavaseBasics)
-
-- [Java流程控制](./programming/Java/PricessCibtrol/PricessCibtrol)
+###  [Java](programming/Java)
 
