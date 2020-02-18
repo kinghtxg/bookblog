@@ -110,7 +110,7 @@ Java Development Kit Java开发环境
 
 为了更直观的了解Java程序的编译流程，我们首先使用记事本来敲第一个程序，创建记事本，将如下代码敲入其中。
 
-```Java
+```java
 public class FirstSample
 {
     public static void main(String[] args)
@@ -154,7 +154,7 @@ java FirstSample
 
 #### 1.类(class)
 
-```Java
+```java
 public class FirstSample{
  ...
 }
@@ -187,7 +187,7 @@ Public class HelloWorld{...}
 
 #### 2.主方法(main)
 
-```Java
+```java
 public static void main(String[] args){
 	...
 }
@@ -201,7 +201,7 @@ public static void main(String[] args){
 
 #### 3.程序语句
 
-```Java
+```java
 System.out.println("Helloworld");
 ```
 
@@ -217,12 +217,12 @@ Java的注释有三种
 //双斜杠注释，从注释处到行结尾
 ```
 
-```Java
+```java
 /*多行注释
 被包裹内容全部注释*/
 ```
 
-```Java
+```java
 /**
 文档注释,多行注释的基础上，会自动生成备注文档，后续会进行讲解
 */

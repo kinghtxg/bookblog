@@ -69,7 +69,7 @@ public class Test {
 
 selfAddMinus.java
 
-```Java
+```java
 public class selfAddMinus{
     public static void main(String[] args){
         int a = 5;//定义一个变量；
@@ -162,7 +162,7 @@ A ^ B = 0011 0001
 
 Test.java
 
-```Java
+```java
 public class Test {
   public static void main(String[] args) {
      int a = 60; /* 60 = 0011 1100 */ 
@@ -407,7 +407,7 @@ public class Car extends Vehicle {
 
 运算结果
 
-```
+```java
 true
 ```
 

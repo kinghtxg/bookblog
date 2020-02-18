@@ -87,7 +87,7 @@ if(判断条件1)
 
 嵌套结构
 
-```Java
+```java
 if(判断条件1)
 {
 	if(判断条件2){
@@ -177,7 +177,7 @@ public class FirstDemo {
 
 while循环是最基本的循环结构，只要while后括号内参数为真，这个循环就会一直持续
 
-```Java
+```java
 while(布尔表达式) {
   //循环内容(可嵌套循环)
 }
@@ -185,7 +185,7 @@ while(布尔表达式) {
 
 案例代码：
 
-```Java
+```java
 public class FirstDemo {
 	public static void main(String[] args){
 		int a = 1;

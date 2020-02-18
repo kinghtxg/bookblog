@@ -98,7 +98,7 @@ boolean类型只有两个值：false和true，通常用于判断逻辑条件，�
 
 从严格意义来说，Java的字符串系统并不属于数据类型的一种，它其实是Unicode字符串序列，例如Java是由五个Unicode字符组成的，而为了方便使用在Java的标准类库中提供了一个预定义的类，叫做String，并且规定了，字符串的值由双引号括起来
 
-```Java
+```java
 String a = "Helloworld";
 ```
 
@@ -108,7 +108,7 @@ String a = "Helloworld";
 
 变量格式：
 
-```Java
+```java
 数据类型 变量名；
 ```
 
@@ -208,7 +208,7 @@ public class Constants{
 
 由于小空间的数值本身就小于大空间，小物品放在大物品里，不会发生任何的变化
 
-```Java
+```java
 int a;
 short b = 10;
 a = b;
@@ -218,7 +218,7 @@ a = b;
 
 而强制类型转换就恰恰相反，通常用于，把大空间的值放到小空间里，那么就可能存在小空间放不下的情况，所以小空间会把放不下的那部分给丢掉
 
-```Java
+```java
 double d＝123.4;
 float f=(float)d;
 ```
