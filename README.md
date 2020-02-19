@@ -11,6 +11,9 @@
 <div style="text-align:right">kinght</div>
 <div style="text-align:right">2020年2月6日</div>
 
+# 码云同步
+
+为了保证加载效率，国内用户请访问：https://kinghtxg.gitee.io/bookblog/#/
 
 # 计划更新内容
 
