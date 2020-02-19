@@ -10,6 +10,7 @@
 
 <div style="text-align:right">kinght</div>
 <div style="text-align:right">2020年2月6日</div>
+
 # 码云同步
 
 为了保证加载效率，国内用户请访问：https://kinghtxg.gitee.io/bookblog/#/
@@ -20,6 +21,7 @@
 - 运维知识：Linux，Tcp/Ip，Http
 - 网络安全：Web，Pwn
 - 人工智能：基础知识，相关框架
+- 资源收藏：[技术博客](Resources/blog)
 
 本文档编写目的为基础加强和实践笔记相结合，如有对计算机一些概念看不懂的小伙伴们，请紧张的往下看，很多概念的答案就在后续文章。如急切想知道答案，本文档与百度达成深度合作，可以在百度搜索答案。
 
