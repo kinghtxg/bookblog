@@ -1,4 +1,4 @@
-# 博客及平台推荐
+# 博客平台推荐
 
 ## 编程类
 
@@ -11,3 +11,5 @@
 - [Paper安全技术精粹](https://paper.seebug.org/)
 - [先知社区](https://xz.aliyun.com/)
 - [Kingkk's Blog](https://www.kingkk.com/)
+- [知道创宇博客](https://blog.knownsec.com/)
+- [长亭科技博客](https://blog.chaitin.cn/)
