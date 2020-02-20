@@ -45,7 +45,7 @@ arr = new int[10];	//创建一个长度为10的整型数组arr
 int[] arr = new int[10];	//创建一个长度为10的整型数组arr
 ```
 
-完成创建之后，数组就会分配一段足够的连续的内存空间，创建之后就不能改变数组的大小了
+完成创建之后，数组就会分配一段足够的连续的内存空间，创建之后就不能改变数组的大小
 
 ### 数组默认值
 
@@ -57,7 +57,7 @@ int[] arr = new int[10];	//创建一个长度为10的整型数组arr
 
 ### 数组初始化
 
-数组初始化的含义是在声明数组的同时给变量赋值，他是直接把数组声明创建赋值的流程给一次性完成
+在Java中提供了一种创建数组对象并同时进行赋值的简化书写形式叫做数组初始化
 
 ```java
 数据类型[] 数组名 = {元素1,元素2,元素3,元素4,...,};
@@ -68,6 +68,18 @@ int[] arr = {1,2,3,4,5,6,7,8,9};
 
 ```java
 int[] arr = new[9];
+```
+
+> 在Java中，允许数组长度为0，在编写一个结果为数组的方法时，如果碰巧结果为空，则这种语法形式就显得非常有用，此时可以创建一个长度为0的数组
+>
+> 注意：长度为0与null不同
+
+#### 匿名数组
+
+这种表示法可以不创建新变量就将创建一个新的数组并利用括号内提供的值进行初始化
+
+```java
+new int[] {12,54,87,35,44};
 ```
 
 ### 数组元素的引用
@@ -123,6 +135,8 @@ public class FirstDemo{
 ## 二维数组
 
 二维数组也是存放相同数据类型的数据，可以看成是由多个一维数组嵌套组成。
+
+![image-20200220212200332](JavaArray.assets/image-20200220212200332.png)
 
 > 案例引用：作为一名班主任老师，要对班上五十名学生语文、数学、外语成绩进行输入
 
@@ -198,6 +212,136 @@ public class FirstDemo{
 				System.out.print(num1[i][j]+"          ");
 			}
 			System.out.println();
+		}
+	}
+}
+```
+
+## 数组的计算
+
+### 数组拷贝
+
+还记得之前说过吗？数组是引用数据类型。
+
+在Java中允许将一个数组变量拷贝给另一个数组变量，但是，两个变量并不是复制，而是引用，对于这两个数组变量而言，他们指向了同一块内存空间，就会导致一个问题，如果一个数组的值发生改变，而另外一个数组会随之改变
+
+![image-20200220200230995](JavaArray.assets/image-20200220200230995.png)
+
+案例demo
+
+```java
+public class FirstDemo{
+	public static void main(String[] args){
+		int[] a = {1,2,3,4,5,6};
+		int[] b = a;	//b数组拷贝的a
+		for (int c: a) {	//打印a
+			System.out.print(c);
+		}
+		System.out.println();   //换行
+		for (int d: b) {	//打印b
+			System.out.print(d);
+		}
+		System.out.println();   //换行
+		System.out.println("修改b[3]");
+		b[3] = 7;
+		for (int c: a) {	//打印修改后a
+			System.out.print(c);
+		}
+		System.out.println();   //换行
+		for (int d: b) {	//打印修改后b
+			System.out.print(d);
+		}
+	}
+}
+```
+
+我们只修改了b第四个元素的值，但打印结果显示a也随着改变了
+
+#### Arrays.copyOf
+
+如果希望将一个数组变量的所有值拷贝到一个新的数组中，就需要用到Arrays类的copyOf方法
+
+```java
+import java.util.Arrays;
+
+public class FirstDemo{
+	public static void main(String[] args) {
+		int[] a = {1,2,3,4,5,6,7,8,9,10};
+		int[] b = Arrays.copyOf(a,a.length);    //第二个参数为新数组长度
+		a[3] = 7;
+		for (int x:a) {
+			System.out.print(x+" ");
+		}
+		System.out.println("");
+		for (int x:b) {
+			System.out.print(x+" ");
+		}
+	}
+}
+```
+
+如果新参数长度大于老参数，数组元素为数值型，那么多余的元素将会被赋值为0，数组元素是布尔型，则将赋值false，如果新参数长度小于老参数，则只拷贝前面的数据元素。
+
+### 数组排序
+
+#### 冒泡排序
+
+这里介绍一下在程序当中比较经典的排序算法，叫做冒泡排序。
+
+- 比较相邻的元素。如果第一个比第二个大，就交换他们两个。
+- 对每一对相邻元素做同样的工作，从开始第一对到结尾的最后一对。在这一点，最后的元素应该会是最大的数。
+- 针对所有的元素重复以上的步骤，除了最后一个。 
+- 持续每次对越来越少的元素重复上面的步骤，直到没有任何一对数字需要比较
+
+![img](JavaArray.assets/bf096b63f6246b60965c2634e6f81a4c510fa224.jpg)
+
+```java
+public class SortDemo {
+
+	public static void main(String[] args) {
+		//冒泡排序
+		int[] a={34,53,12,32,56,17};
+		System.out.println("排序前的数组元素为:");
+		for(int n:a){
+			System.out.print(n+"     ");
+		}
+		System.out.println();
+		int temp;
+		for(int i=0;i<a.length-1;i++){
+			//内重循环控制每趟排序
+			for(int j=0;j<a.length-i-1;j++){
+				if(a[j]>a[j+1]){
+					temp=a[j];
+					a[j]=a[j+1];
+					a[j+1]=temp;
+				}
+			}
+		}
+		System.out.println("从小到大排序后的数组元素为：");
+		for(int n:a){
+			System.out.print(n+"     ");
+		}
+	}
+}
+```
+
+#### Arrays.sort
+
+冒泡排序是经典，但却实也用的很少，而且Java本身也提供方法对数组进行排序
+
+```java
+public class FirstDemo{
+	public static void main(String[] args) {
+		int[] a={34,53,12,32,56,17};
+		System.out.println("排序前的数组元素为:");
+		for(int n:a){
+			System.out.print(n+"     ");
+		}
+		System.out.println();
+		Arrays.sort(a);	//从小到大排序
+		System.out.println("从小到大排序后的数组元素为：");
+		for(int n:a){
+			System.out.print(n+"     ");
 		}
 	}
 }
