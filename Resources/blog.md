@@ -17,7 +17,6 @@
 - [先知社区](https://xz.aliyun.com/)
 - [暗月博客](http://www.moonsec.com/)
 - [freebuf](freebuf.com/)
-- [卡饭论坛](bbs.kafan.cn/forum.php)
 - [安全脉搏](secpulse.com/)
 - [I春秋](bbs.ichunqiu.com)
 - [看雪](bbs.pediy.com/)
