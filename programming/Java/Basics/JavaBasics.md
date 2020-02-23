@@ -9,3 +9,6 @@
  [流程控制语句](/programming/Java/Basics/JavaBasics/ProcessControl) 
 
 [数组](/programming/Java/Basics/JavaBasics/JavaArray)
+
+[方法](/programming/Java/Basics/JavaBasics/JavaBasics)
+
