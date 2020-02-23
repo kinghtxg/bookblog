@@ -5,7 +5,7 @@
 ## 编程类
 
 - [JavaGuide](https://snailclimb.gitee.io/javaguide/#/)
-- [思否](segmentfault.com/)
+- [思否](https://segmentfault.com/)
 
 ## 安全类
 
