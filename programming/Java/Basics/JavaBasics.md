@@ -10,5 +10,5 @@
 
 [数组](/programming/Java/Basics/JavaBasics/JavaArray)
 
-[方法](/programming/Java/Basics/JavaBasics/JavaBasics)
+[方法](/programming/Java/Basics/JavaBasics/JavaMethod)
 
