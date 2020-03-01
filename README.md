@@ -31,7 +31,7 @@
 - 计算机网络：Tcp/Ip，Http
 - 网络安全：Web，Pwn
 - 人工智能：基础知识，相关框架
-- 资源收藏：[技术博客](Resources/blog)、类似知识图谱
+- 资源收藏：[技术博客](Resources/blog)、[类似知识图谱](Resources/Atlas)
 
 
 
