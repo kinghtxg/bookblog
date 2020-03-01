@@ -2,6 +2,8 @@
 
 ------
 
+![image-20200301221641302](README.assets/image-20200301221641302.png)
+
 ## ☕起言
 
 2020年初，因为一场席卷全国的疫情，接受国家的不出门号召，打算找点事情打发无聊时光的我，决定从零开始使用[费曼*学习法*](http://www.baidu.com/link?url=z0V5UmC8ZVovkUU8pned2pJLHr-XUwXaio7g_4w0pM-sB84z13OxXkJlAMOKqg_Ll_2HP8m6Aq1QAKXg80gKaa)整理我学过，以及我想学的一切，从而巩固并加深我对专业知识的理解，以及应对即将到来考研专业课。
@@ -12,9 +14,13 @@
 
 <div style="text-align:right">kinght</div>
 <div style="text-align:right">2020年2月6日</div>
+
+
 ## ☁️码云同步
 
 为了保证加载效率，国内用户请访问：https://kinghtxg.gitee.io/bookblog/#/
+
+
 
 ## 💾计划更新目录
 
@@ -26,6 +32,8 @@
 - 网络安全：Web，Pwn
 - 人工智能：基础知识，相关框架
 - 资源收藏：[技术博客](Resources/blog)、类似知识图谱
+
+
 
 ## 📡联系作者
 
