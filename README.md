@@ -25,7 +25,7 @@
 ## 💾计划更新目录
 
 - 计算机基础：计算机组成原理、高等数学、线性代数、概率论与数理统计、数据结构
-- 编程语言：Web前端，Python，[Java](programming/Java)，PHP，GO，C/C++，汇编
+- 编程语言：Web前端，Python，[Java](programming/Java)，PHP，GO，[C](programming/C)，C++，汇编
 - 数据库：Mysql
 - 运维知识：Linux
 - 计算机网络：Tcp/Ip，Http
