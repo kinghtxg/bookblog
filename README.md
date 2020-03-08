@@ -18,7 +18,7 @@
 
 ## ☁️码云同步
 
-为了保证加载效率，国内用户请访问：https://kinghtxg.gitee.io/bookblog/#/
+为了保证加载效率，国内用户请访问：https://salted_fish_diary.gitee.io/book
 
 
 
